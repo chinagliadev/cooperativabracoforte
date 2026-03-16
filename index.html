@@ -2,410 +2,397 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooperativa Braço Forte</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooperativa Braço Forte</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-    <header>
-        <nav class="container navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo-cooperativabracoforte.jpg" alt="Logo Cooperativa Braço Forte" width="70"
-                        height="60" class="d-inline-block align-text-top">
-                </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav id="navbar">
+    <div class="container nav-inner">
+    <a class="nav-logo" href="/">BRAÇO<span>FORTE</span></a>
+      <button class="hamburger" id="ham" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">INÍCIO</a></li>
+        <li><a href="#conheca">NOS CONHEÇA</a></li>
+        <li><a href="#servicos">SERVIÇOS</a></li>
+        <li><a href="#projetos">PROJETOS</a></li>
+        <li><a href="#footer">CONTATO</a></li>
+      </ul>
+    </div>
+  </nav>
 
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <section class="hero" id="inicio">
+    <div class="container" style="position:relative;z-index:1;width:100%;">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Cooperativa de Arquitetura e Construção</div>
+        <h1>BRAÇO<br><em>FORTE</em></h1>
+        <p class="hero-sub">Arquitetura · Urbanismo · Construção</p>
+        <div class="hero-actions">
+          <a href="#conheca" class="btn btn-amarelo">Nos Conheça</a>
+          <a href="#footer" class="btn btn-outline-am">Fale Conosco</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><strong>Soluções</strong><span>em Arquitetura, Urbanismo e Construção+</span></div>
+      <div class="hero-stat"><strong>2012</strong><span>Fundação Oficial</span></div>
+      <div class="hero-stat"><strong>Nacional</strong><span>Abrangência</span></div>
+    </div>
+  </section>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto gap-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">INÍCIO</a>
-                        </li>
+  <section class="conheca" id="conheca">
+    <div class="container">
+      <div class="conheca-header rev">
+        <div class="etiqueta"
+          style="color:var(--verde);background:rgba(33,110,65,.08);border-color:rgba(33,110,65,.3);">Nossa história
+        </div>
+        <h2 class="titulo-bloco" style="color:var(--verde-escuro);">NOS <span style="color:var(--verde);">CONHEÇA</span>
+        </h2>
+      </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SOBRE</a>
-                        </li>
+      <div class="conheca-grid">
+        <div class="conheca-col rev-l">
+          <p>
+            A <strong>Cooperativa Braço Forte</strong> atua em todas as áreas da arquitetura e construção de forma
+            interativa com todas e todos profissionais envolvidos na demanda apresentada para execução.
+          </p>
+          <p>
+            Fundada oficialmente em 25/02/2012, somos síntese do esforço coletivo de profissionais da construção civil
+            em compartilhar conhecimento para prestar serviços com maior qualidade e construírem melhores condições de
+            trabalho e de vida para os cooperados e suas famílias.
+          </p>
+          <div class="alerta-verde">
+            Atuação de abrangência nacional e de acordo com as <strong>Leis 5.764/71 e 12.690/2012</strong> e registro
+            no CAU com plena autorização de trabalhar nos ramos de arquitetura e urbanismo.
+          </div>
+          <p>
+            <strong>Primeira cooperativa de trabalho na construção civil</strong> em toda sua extensão, do projeto à
+            execução, de arquitetura à projetos ambientais, de segurança a incêndios, instalações a Plano Diretores.
+            Pois agregam entre seus cooperados arquitetos-urbanistas, mestre construtores, oficiais como pedreiros,
+            pintores, encanadores, eletricistas.
+          </p>
+        </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">SERVIÇOS</a>
-                        </li>
+        <div class="conheca-col rev-r">
+          <div class="alerta-amarelo">
+            Diferente de uma empresa privada, as <strong>decisões coletivas</strong> produzem um efeito positivo na
+            obra. As soluções são mais rápidas e duradouras, pois são debatidas por um corpo técnico unitário e ágil.
+          </div>
+          <p><strong>Todos os profissionais encontram-se num mesmo local.</strong></p>
+          <p>
+            Quanto às vantagens tributárias, a cooperativa é <strong>isenta da cobrança do PIS-CONFINS</strong> por não
+            tratar-se de empresa patronal.
+          </p>
+          <div class="destaque-verde">
+            <h4>Urbanismo Produtivo</h4>
+            <p>Temos experiência em regularização fundiária onde seguimos a teoria orientada pelo Arq-urb Victor
+              Chinaglia e desenvolvida pelos cooperados, denominado de Urbanismo Produtivo.</p>
+          </div>
+        </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link">PROJETOS</a>
-                        </li>
+        <div class="conheca-full rev">
+          <p>
+            O Urbanismo Produtivo consiste em incorporar elementos socioeconômicos e históricos para compor o imaginário
+            coletivo para a fixação permanente ao novo território, com geração de renda, empreendedorismo econômico,
+            atividades culturais e ambientais que não eliminam a identidade da comunidade originária.
+          </p>
+          <p>
+            Ampliar o foco além da unidade habitacional, carregada de interioridade e ver a habitação como um todo,
+            amplo espaço riquíssimo em ações coletivas que incluem as complexas relações econômicas determinante para as
+            demais, sejam elas ambientais, culturais, religiosas, sociais e políticas.
+          </p>
+          <p>
+            Dentro desse conceito especializamos em arquitetura de terra e tecnologias de conhecimento comum, com a
+            formação profissional através da <strong>Escola Livre Espaço Sérgio Ferro</strong> e de nossa fábrica de
+            BTC, blocos de concreto e peças pré moldadas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                        <li class="nav-item">
-                            <a class="nav-link">CONTATO</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <div class="servicos-header rev">
+        <div class="etiqueta">O que fazemos</div>
+        <h2 class="titulo-bloco">NOSSOS <span>SERVIÇOS</span></h2>
+      </div>
 
-    <section class="hero" id="inicio">
-        <div class="container cor-amarela text-center">
+      <div class="servicos-grid">
 
-            <p class="animar titulo-hero">Cooperativa</p>
+        <div class="servico-card rev d1">
+          <div class="servico-num">01</div>
+          <div class="servico-icon">
+            <i class="bi bi-building"></i>
+          </div>
+          <h3>Arquitetura</h3>
+          <p>Design funcional e estético que valoriza cada espaço, aliando beleza e conforto nos projetos.</p>
+        </div>
 
-            <h2 class="titulo-hero animar">
-                BRAÇO FORTE
-            </h2>
+        <div class="servico-card rev d2">
+          <div class="servico-num">02</div>
+          <div class="servico-icon">
+            <i class="bi bi-map"></i>
+          </div>
+          <h3>Urbanismo</h3>
+          <p>Planejamento urbano que busca equilíbrio entre funcionalidade, estética e sustentabilidade.</p>
+        </div>
 
-            <p class="animar">
-                Arquitetura Urbanismo Construção
+        <div class="servico-card rev d3">
+          <div class="servico-num">03</div>
+          <div class="servico-icon">
+            <i class="bi bi-hammer"></i>
+          </div>
+          <h3>Construção</h3>
+          <p>Execução de obras com qualidade, segurança e cumprimento rigoroso de prazos.</p>
+        </div>
+
+        <div class="servico-card rev d4">
+          <div class="servico-num">04</div>
+          <div class="servico-icon">
+            <i class="bi bi-file-earmark-text"></i>
+          </div>
+          <h3>Termo de Cooperações</h3>
+          <p>Cooperativa estabelece termos de cooperação com entidades públicas e privadas.</p>
+          <a class="btn-doc" href="./doc/Plano-de-recurso.pdf" target="_blank">
+            <i class="bi bi-file-pdf-fill"></i> Ver Documento
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="numeros">
+    <div class="container">
+      <div class="numeros-grid">
+        <div class="numero-item rev d1">
+          <p>Soluções em Arquitetura, Urbanismo e Construção</p>
+        </div>
+        <div class="numero-item rev d2"><strong>2012</strong>
+          <p>Ano de Fundação</p>
+        </div>
+        <div class="numero-item rev d3"><strong>Nacional</strong>
+          <p>Abrangência</p>
+        </div>
+        <div class="numero-item rev d4"><strong>100%</strong>
+          <p>Cooperativismo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="projetos-header rev">
+        <div class="etiqueta"
+          style="color:var(--verde);background:rgba(33,110,65,.08);border-color:rgba(33,110,65,.3);">Portfólio</div>
+        <h2 class="titulo-bloco" style="color:var(--verde-escuro);">PROJETOS EM <span
+            style="color:var(--verde);">DESTAQUE</span></h2>
+      </div>
+      <div class="projetos-grid">
+
+        <div class="projeto-card rev d1" onclick="abrirModal('sjsp')">
+          <div class="projeto-img-wrap">
+            <img src="./assets/img/portifolio/sindicatoJornalistas.png" alt="SJSP"
+              onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80'" />
+            <div class="projeto-overlay"><span>Ver detalhes</span></div>
+          </div>
+          <div class="projeto-body">
+            <p class="projeto-cat">Arquitetura e Construção</p>
+            <h3>Sindicato dos Jornalistas do Estado de São Paulo — SJSP</h3>
+            <p><i class="bi bi-geo-alt-fill"></i> São Paulo</p>
+            <p>A comunicação visual desempenha um papel fundamental na identidade de qualquer organização, especialmente
+              em entidades representativas como o Sindicato dos Jornalistas do Estado de São Paulo. Recentemente, o
+              sindicato passou por um processo de reforma em suas instalações e atualização de sua comunicação visual,
+              com o objetivo de alinhar sua presença física e digital à sua missão de defender os profissionais da
+              imprensa e promover a valorização da categoria.</p>
+          </div>
+        </div>
+
+        <div class="projeto-card rev d2" onclick="abrirModal('sinpro')">
+          <div class="projeto-img-wrap">
+            <img src="./assets/img/hero.png" alt="SINPRO"
+              onerror="this.src='https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80'" />
+            <div class="projeto-overlay"><span>Ver detalhes</span></div>
+          </div>
+          <div class="projeto-body">
+            <p class="projeto-cat">Arquitetura e Construção</p>
+            <h3>Sindicato dos Professores de Campinas e Região — SINPRO</h3>
+            <p><i class="bi bi-geo-alt-fill"></i> Campinas</p>
+            <p>O Sinpro investiu recentemente na reforma de suas instalações e na modernização de sua comunicação
+              visual. O projeto buscou aliar funcionalidade, conforto e acessibilidade, garantindo um ambiente acolhedor
+              para professores e associados. Além disso, a atualização visual reforça a identidade da instituição,
+              transmitindo profissionalismo, transparência e valorização da categoria, fortalecendo a presença do
+              sindicato na comunidade educacional.</p>
+          </div>
+        </div>
+
+        <div class="projeto-card rev d3" onclick="abrirModal('reurb')">
+          <div class="projeto-img-wrap">
+            <img src="./assets/img/portifolio/reurbMonteVerde.png" alt="REURB Monte Verde"
+              onerror="this.src='https://images.unsplash.com/photo-1448630360428-65456885c650?w=600&q=80'" />
+            <div class="projeto-overlay"><span>Ver detalhes</span></div>
+          </div>
+          <div class="projeto-body">
+            <p class="projeto-cat">Regularização Fundiária</p>
+            <h3>REURB Monte Verde — Associação Monte Verde/Progresso Pós Represa</h3>
+            <p><i class="bi bi-geo-alt-fill"></i> Americana</p>
+            <p>O projeto REURB no núcleo Monte Verde visa a regularização jurídica e urbanística, proporcionando
+              dignidade e segurança patrimonial aos moradores. Através de um levantamento detalhado e adequação das
+              infraestruturas essenciais, o projeto integra a comunidade à malha urbana oficial, garantindo o direito à
+              moradia e promovendo a valorização imobiliária e o desenvolvimento social da região. Trata-se do maior
+              ponto de conflito fundiário da Região Metropolitana de Campinas.</p>
+          </div>
+        </div>
+
+        <div class="projeto-card rev d4" onclick="abrirModal('stspmp')">
+          <div class="projeto-img-wrap">
+            <img src="./assets/img/portifolio/paulinia.JPG" alt="STSPMP"
+              onerror="this.src='https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80'" />
+            <div class="projeto-overlay"><span>Ver detalhes</span></div>
+          </div>
+          <div class="projeto-body">
+            <p class="projeto-cat">Regularização e Serviços</p>
+            <h3>Sindicato dos Servidores de Paulínia — STSPMP</h3>
+            <p><i class="bi bi-geo-alt-fill"></i> Americana</p>
+            <p>A entidade adquiriu dois lotes e realizou várias melhorias construtivas e ambientais, nas quais a
+              <strong>Cooperativa Braço Forte</strong> fez as regularizações necessárias para a estabilidade legal do
+              sindicato perante a Prefeitura Municipal. Entre elas estão a unificação de lotes, perícias edilícias e
+              projetos de melhorias da sede.
             </p>
-
-            <a class="text-decoration-none btn-hero animar text-uppercase" href="#sobre">
-                Nos Conheça
-            </a>
-
-        </div>
-    </section>
-
-    <section class="sobre d-flex align-items-center justify-content-center" id="conheca">
-        <div class="container">
-            <h2 class="text-center mb-5 text-success titulo-sobre">Nos Conheça</h2>
-            <div class="row g-5">
-                <div class="col-12 col-md-6">
-                    <p>
-                        A <span class="text-success fw-bold">Cooperativa Braço Forte</span> atua em todas as áreas da
-                        arquitetura e construção de forma interativa com
-                        todas e todos profissionais envolvidos na demanda apresentada para execução.
-                    </p>
-
-                    Fundada oficialmente em 25/02/2012, somos síntese do esforço coletivo de profissionais da construção
-                    civil em compartilhar conhecimento para prestar serviços com maior qualidade e construírem melhores
-                    condições de trabalho e de vida para os cooperados e suas famílias.
-
-                    <div class="alert bg-success-subtle border-0 border-start border-success border-4 p-4 mt-3">
-                        Atuação de abrangência nacional e de acordo com as
-                        <strong>Leis 5.764/71 e 12.690/2012</strong>
-                        e registro no CAU com plena autorização de trabalhar nos ramos de arquitetura e urbanismo.
-                    </div>
-                    <p>
-                        <span class="text-success fw-bold">Primeira cooperativa de trabalho na construção civil</span>
-                        em toda sua extensão, do projeto à
-                        execução, de
-                        arquitetura à projetos ambientais, de segurança a incêndios, instalações a Plano Diretores. Pois
-                        agregam entre seus cooperados arquitetos-urbanistas, mestre construtores, oficiais como
-                        pedreiros,
-                        pintores, encanadores, eletricistas.
-                    </p>
-
-
-                </div>
-
-                <div class="col-12 col-md-6">
-
-                    <div class="alert bg-warning-subtle border-0 border-start border-warning border-4 p-4">
-                        Diferente de uma empresa privada, as <strong>decisões coletivas</strong> produzem um efeito
-                        positivo na obra. As
-                        soluções são mais rápidas e duradouras, pois são debatidas por um corpo técnico unitário e ágil.
-                    </div>
-
-                    <p class="text-success fw-bold">Todos os profissionais encontram-se num mesmo local.</p>
-
-                    <p>Quanto às vantagens tributárias, a cooperativa é <strong class="text-warning fw-bold">isenta da
-                            cobrança do PIS-CONFINS</strong> por não
-                        tratar-se de empresa patronal.</p>
-
-                    <div class="bg-success p-4 rounded text-white">
-                        <h2 class="text-warning fs-6 fw-bold">Urbanismo Produtivo</h2>
-                        Temos experiência em regularização fundiária onde seguimos a teoria orientada pelo arq.-urv
-                        Victor Chinaglia e desenvolvida pelos cooperados, denominado de Urbanismo Produtivo.
-                    </div>
-                </div>
-
-                <div class="col col-12 ">
-                    <p>
-                        O Urbanismo Produtivo consiste em incorporar elementos socioeconômicos e históricos para
-                        compor
-                        o imaginário coletivo para a fixação permanente ao novo território, com geração de renda,
-                        empreendedorismo econômico, atividades culturais e ambientais que não eliminam a identidade
-                        da
-                        comunidade originária.
-                    </p>
-
-                    <p>
-                        Ampliar o foco além da unidade habitacional, carregada de interioridade e ver a habitação
-                        como
-                        um todo, amplo espaço riquíssimo em ações coletivas que incluem as complexas relações
-                        econômicas
-                        determinante para as demais, sejam elas ambientais, culturais, religiosas, sociais e
-                        políticas.
-                    </p>
-
-                    <p>
-                        Dentro desse conceito especializamos em arquitetura de terra e tecnologias de conhecimento
-                        comum, com a formação profissional através da <strong class="text-success fw-bold">Escola Livre
-                            Espaço Sérgio Ferro</strong> e de nossa
-                        fábrica de BTC, blocos de concreto e peças pré moldadas.
-                    </p>
-
-                </div>
-            </div>
-    </section>
-
-    <section class="servicos p-3" id="servicos">
-
-        <div class="servicos-titulos text-center mb-5">
-            <span class="text-uppercase">O que fazemos</span>
-            <h2>NOSSOS SERVIÇOS</h2>
+          </div>
         </div>
 
-        <div class="container">
-            <div class="row g-4">
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="item-servico h-100 d-flex flex-column gap-3">
-                        <i class="bi bi-building fs-1 cor-amarela"></i>
-                        <h3 class="fw-bold oswald-font">Arquitetura</h3>
-                        <p class="small mb-0">
-                            Design funcional e estético que valoriza cada espaço,
-                            aliando beleza e conforto nos projetos.
-                        </p>
-                    </div>
-                </div>
-                 <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="item-servico h-100 d-flex flex-column gap-3">
-                        <i class="bi bi-map fs-1 cor-amarela"></i>
-                        <h3 class="fw-bold oswald-font">Urbanismo</h3>
-                        <p class="small mb-0">
-                            Planejamento urbano que busca equilíbrio
-                            entre funcionalidade, estética e sustentabilidade.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="item-servico h-100 d-flex flex-column gap-3">
-                        <i class="bi bi-hammer fs-1 cor-amarela"></i>
-                        <h3 class="fw-bold oswald-font">Construção</h3>
-                        <p class="small mb-0">
-                            Execução de obras com qualidade, segurança e
-                            cumprimento rigoroso de prazos.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="projeto-card rev d5" onclick="abrirModal('coophesp')">
+          <div class="projeto-img-wrap">
+            <img src="./assets/img/portifolio/coophesp.jpeg" alt="COOPHESP"
+              onerror="this.src='https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80'" />
+            <div class="projeto-overlay"><span>Ver detalhes</span></div>
+          </div>
+          <div class="projeto-body">
+            <p class="projeto-cat">Urbanismo</p>
+            <h3>Cooperativa Pró Habitação do Estado de São Paulo — COOPHESP</h3>
+            <p><i class="bi bi-geo-alt-fill"></i> Americana</p>
+            <p>A COOPHESP adquiriu a antiga granja COAVI, localizada na tríplice divisa entre Americana, Cosmópolis e
+              Paulínia. Foram realizados projetos ambientais, incluindo a remoção de indivíduos (Árvore) exóticos, além
+              do desenvolvimento de projeto urbanístico de loteamento e ocupação.</p>
+          </div>
         </div>
 
-    </section>
-
-    <section class="projetos" id="projetos">
-        <div class="servicos-projetos text-center mb-5">
-            <span class="text-uppercase">PORTFÓLIO</span>
-            <h2 class="titulo-projetos">PROJETOS EM DESTAQUE</h2>
+        <div class="projeto-card rev d6" onclick="abrirModal('oficina')">
+          <div class="projeto-img-wrap">
+            <img src="./assets/img/portifolio/oficinaArquitetura.jpeg" alt="Oficinas de Arquitetura de Terra"
+              onerror="this.src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80'" />
+            <div class="projeto-overlay"><span>Ver detalhes</span></div>
+          </div>
+          <div class="projeto-body">
+            <p class="projeto-cat">Formação e Tecnologia</p>
+            <h3>As Oficinas de Arquitetura de Terra</h3>
+            <p><i class="bi bi-geo-alt-fill"></i> Americana</p>
+            <p>A Cooperativa Braço Forte adquiriu a primeira máquina manual de bloco de terra compactada em 2019 e
+              outras semi-hidráulicas nos anos seguintes. Com o apoio de professores e professoras da região, fundamos a
+              Escola Livre Espaço Sérgio Ferro, na qual realizamos formação e aprimoramento de trabalhadores em
+              arquitetura de terra e tecnologias de conhecimento popular de acordo com a <strong>Lei Federal n°
+                5.764/1971 - FATES</strong>.</p>
+          </div>
         </div>
 
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modalProjeto1">
-                        <div class="card-img-wrapper">
-                            <img src="./assets/img/portifolio/sindicatoJornalistas.png" class="card-img-top"
-                                alt="Projeto">
-                        </div>
+      </div>
+    </div>
+  </section>
 
-                        <div class="card-body">
-                            <h5 class="card-title">Sindicato dos Jornalistas do Estado de São Paulo -
-                                <strong>SJSP</strong>
-                            </h5>
-                            <p class="card-text text-muted"><i class="bi bi-geo-alt"></i> São Paulo</p>
-                            <p class="card-text">
-                                A comunicação visual desempenha um papel fundamental na identidade de qualquer
-                                organização, especialmente em entidades representativas como o Sindicato dos Jornalistas
-                                do Estado de São Paulo. Recentemente, o sindicato passou por um processo de reforma em
-                                suas instalações e atualização de sua comunicação visual, com o objetivo de alinhar sua
-                                presença física e digital à sua missão de defender os profissionais da imprensa e
-                                promover a valorização da categoria.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+  <footer id="footer">
+    <div class="container" style="position:relative;z-index:1;">
+      <div class="footer-grid">
 
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="#modalProjetoSinpro">
-                        <div class="card-img-wrapper">
-                            <img src="./assets/img/hero.png" class="card-img-top" alt="Projeto">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Sindicato dos Professores de Campinas e Região -
-                                <strong>SINPRO</strong>
-                            </h5>
-                            <p class="card-text text-muted"><i class="bi bi-geo-alt"></i> Campinas</p>
-                            <p class="card-text">
-                                O Sinpro, Sindicato dos Professores, investiu recentemente na reforma de suas
-                                instalações e na modernização de sua comunicação visual. O projeto buscou aliar
-                                funcionalidade, conforto e acessibilidade, garantindo um ambiente acolhedor para
-                                professores e associados. Além disso, a atualização visual reforça a identidade da
-                                instituição, transmitindo profissionalismo, transparência e valorização da categoria,
-                                fortalecendo a presença do sindicato na comunidade educacional.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="#modalReurbMonteVerde">
-                        <div class="card-img-wrapper">
-                            <img src="./assets/img/portifolio/reurbMonteVerde.png" class="card-img-top" alt="Projeto">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Regularização Fundiária Urbana <strong>REURB</strong> Monte Verde -
-                                Associação Monte Verde/Progresso Pós Represa</h5>
-                            <p class="card-text text-muted"><i class="bi bi-geo-alt"></i> Americana</p>
-                            <p class="card-text">
-                                O projeto REURB no núcleo Monte Verde visa a regularização jurídica e urbanística,
-                                proporcionando dignidade e segurança patrimonial aos moradores. Através de um
-                                levantamento detalhado e adequação das infraestruturas essenciais, o projeto
-                                integra a comunidade à malha urbana oficial, garantindo o direito à moradia
-                                e promovendo a valorização imobiliária e o desenvolvimento social da região. Trata-se do
-                                maior ponto de conflito fundiário da Região Metropolitana de Campinas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="#modalReurbMonteVerde">
-                        <div class="card-img-wrapper">
-                            <img src="./assets/img/portifolio/paulinia.JPG" class="card-img-top" alt="Projeto">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">A regularização e outro serviços dos Sindicato dos Servidores de
-                                Paulinia - <strong>STSPMP</strong></h5>
-                            <p class="card-text text-muted"><i class="bi bi-geo-alt"></i> Americana</p>
-                            <p class="card-text">
-                                A entidade adquiriu dois lotes e realizou várias melhorias construtivas e ambientais,
-                                nas
-                                quais a <strong class="text-success">Cooperativa Braço Forte</strong> fez as
-                                regularizações necessárias para a estabilidade legal do
-                                sindicato perante a Prefeitura Municipal. Entre elas estão a unificação de lotes,
-                                perícias edilícias e projetos de melhorias da sede.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="#modalReurbMonteVerde">
-                        <div class="card-img-wrapper">
-                            <img src="./assets/img/portifolio/coophesp.jpeg" class="card-img-top" alt="Projeto">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">O urbanístico da Cooperativa Pró Habitação do Estado de São Paulo -
-                                <strong>COOPHESP</strong>
-                            </h5>
-                            <p class="card-text text-muted"><i class="bi bi-geo-alt"></i> Americana</p>
-                            <p class="card-text">
-                                A COOPHESP adquiriu a antiga granja COAVI, localizada na tríplice divisa entre
-                                Americana, Cosmópolis e Paulínia. Foram realizados projetos ambientais, incluindo a
-                                remoção de indivíduos (Arvôre) exóticos, além do desenvolvimento de projeto urbanístico
-                                de
-                                loteamento e ocupação.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="#modalReurbMonteVerde">
-                        <div class="card-img-wrapper">
-                            <img src="./assets/img/portifolio/oficinaArquitetura.jpeg" class="card-img-top"
-                                alt="Projeto">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">As oficinas de arquitetura de terra</h5>
-                            <p class="card-text text-muted"><i class="bi bi-geo-alt"></i> Americana</p>
-                            <p class="card-text">
-                                A <strong class="text-success">Cooperativa Braço Forte</strong> adquiriu a primeira
-                                máquina manual de bloco de terra compactada em 2019 e outras semi-hidráulicas nos anos
-                                seguintes. Com o apoio de professores e professoras da região, fundamos a Escola Livre
-                                Espaço Sérgio Ferro, na qual realizamos formação e aprimoramento de trabalhadores em
-                                arquitetura de terra e tecnologias de conhecimento popular de acordo com a <strong>Lei
-                                    Federal n° 5.764/1971 - FATES</strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="footer-brand rev-l">
+          <div class="footer-logo-txt">BRAÇO<span>FORTE</span></div>
+          <p>Cooperativa especializada em arquitetura, construção e desenvolvimento de projetos que transformam espaços
+            com qualidade, inovação e responsabilidade.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/coopbracoforte/" target="_blank" rel="noopener noreferrer"
+              class="footer-soc" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          </div>
         </div>
-    </section>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row g-4">
-
-                <div class="col-12 col-md-4">
-                    <h4 class="footer-logo">Braço Forte</h4>
-                    <p>
-                        Cooperativa especializada em arquitetura, construção e
-                        desenvolvimento de projetos que transformam espaços
-                        com qualidade, inovação e responsabilidade.
-                    </p>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <h5 class="footer-titulo">Links</h5>
-                    <ul class="footer-links">
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#conheca">Nos Conheça</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-6 col-md-3">
-                    <h5 class="footer-titulo">Serviços</h5>
-                    <ul class="footer-links">
-                        <li><a href="#inicio">Arquitetura</a></li>
-                        <li><a href="#conheca">Construção</a></li>
-                        <li><a href="#projetos">Urbanismo</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-12 col-md-3">
-                    <h5 class="footer-titulo">Contato</h5>
-                    <p><i class="bi bi-geo-alt"></i> Americana - SP</p>
-                    <p><i class="bi bi-telephone"></i> (19) 99708-5417</p>
-                    <p><i class="bi bi-envelope"></i> contato@bracoforte.com</p>
-
-                    <div class="footer-redes">
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-linkedin"></i>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="footer-bottom text-center">
-                <p>© 2026 Braço Forte - Todos os direitos reservados</p>
-            </div>
+        <div class="footer-col rev d1">
+          <h5>Links</h5>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#conheca">Nos Conheça</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
         </div>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        <div class="footer-col rev d2">
+          <h5>Serviços</h5>
+          <ul>
+            <li><a href="#servicos">Arquitetura</a></li>
+            <li><a href="#servicos">Urbanismo</a></li>
+            <li><a href="#servicos">Construção</a></li>
+            <li><a href="#servicos">Termos de Cooperação</a></li>
+          </ul>
+        </div>
 
-    <script src="./js/app.js"></script>
+        <div class="footer-contato rev d3">
+          <span class="footer-contact-head">Contato</span>
+
+          <p>
+            <span class="ic"><i class="bi bi-geo-alt-fill"></i></span>
+            Americana — SP
+          </p>
+
+          <p>
+            <span class="ic"><i class="bi bi-telephone-fill"></i></span>
+            (19) 99708-5417
+          </p>
+
+          <p>
+            <span class="ic"><i class="bi bi-envelope-fill"></i></span>
+            <a class="text-decoration-none text-warning"
+              href="mailto:cooperabracoforte@gmail.com">cooperabracoforte@gmail.com</a>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Braço Forte — Todos os direitos reservados</p>
+        <a href="#">Política de Privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Voltar ao topo">↑</button>
+
+  <div class="modal-overlay" id="modalOverlay" onclick="fecharModalFora(event)">
+    <div class="modal-box" id="modalBox">
+      <button class="modal-close" onclick="fecharModal()" aria-label="Fechar">✕</button>
+      <div class="modal-img-wrap">
+        <img id="modalImg" src="" alt="" />
+        <span class="modal-cat" id="modalCat"></span>
+      </div>
+      <div class="modal-content">
+        <h2 id="modalTitulo"></h2>
+        <p class="modal-local" id="modalLocal"></p>
+        <div class="modal-divider"></div>
+        <p id="modalDescricao"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+
 </body>
 
 </html>
